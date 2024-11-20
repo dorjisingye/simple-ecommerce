@@ -122,15 +122,15 @@ a.mack-btn:hover svg.bi.bi-arrow-right{
 
 /* section Smart phone start  */
 
-section#smartphone{
+section#basic{
     margin-bottom: 100px;
 }
 
-.smartphone-header{
+.basic-header{
     margin-bottom: 50px;
 }
 
-.smartphone-header h5{
+.basic-header h5{
     font-weight: bold;
     cursor: pointer;
     background: -webkit-linear-gradient(145deg,#f1c40f,#e67e22);
@@ -138,7 +138,7 @@ section#smartphone{
     -webkit-text-fill-color: transparent;
 }
 
-a.smartphone-btn {
+a.basic-btn {
     font-weight: bold;
     background-color: black;
     color: white;
@@ -150,12 +150,12 @@ a.smartphone-btn {
     cursor: pointer;
 }
 
-a.smartphone-btn:hover {
+a.basic-btn:hover {
     background-color: white;
     color: black;
 }
 
-a.smartphone-btn:hover svg.bi.bi-arrow-right{
+a.basic-btn:hover svg.bi.bi-arrow-right{
     transform: rotate(-180deg);
     color: black;
 }
@@ -164,16 +164,16 @@ a.smartphone-btn:hover svg.bi.bi-arrow-right{
 
 /* section Laptop start  */
 
-section#laptop{
+section#premium{
     margin-bottom: 100px;
 }
 
-.laptop-header{
+.premium-header{
     margin-bottom: 50px;
 }
 
 
-.laptop-header h5{
+.premium-header h5{
     font-weight: bold;
     cursor: pointer;
     background: -webkit-linear-gradient(145deg,#f1c40f,#e67e22);
@@ -181,7 +181,7 @@ section#laptop{
     -webkit-text-fill-color: transparent;
 }
 
-a.laptop-btn {
+a.premium-btn {
     font-weight: bold;
     background-color: black;
     color: white;
@@ -193,12 +193,12 @@ a.laptop-btn {
     cursor: pointer;
 }
 
-a.laptop-btn:hover {
+a.premium-btn:hover {
     background-color: white;
     color: black;
 }
 
-a.laptop-btn:hover svg.bi.bi-arrow-right{
+a.premium-btn:hover svg.bi.bi-arrow-right{
     transform: rotate(-180deg);
     color: black;
 }
@@ -221,6 +221,13 @@ hr{
 }
 .mt-5{
     margin-top: 6rem!important;
+}
+
+.categories-card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 /* End  */
 
